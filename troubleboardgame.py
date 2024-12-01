@@ -1,14 +1,3 @@
-# By submitting this assignment, I agree to the following:
-#   "Aggies do not lie, cheat, or steal, or tolerate those who do."
-#   "I have not given or received any unauthorized aid on this assignment."
-# Names:        Deepna Kanjee
-#               Clara Berg
-#               Saachi Jain
-#               Shruti Ezhilarasan
-# Section:      570
-# Assignment:   Team FInal Project
-# Date:         23 November 2024
-
 import turtle
 import random
 
