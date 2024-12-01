@@ -1,13 +1,3 @@
-# By submitting this assignment, I agree to the following:
-# “Aggies do not lie, cheat, or steal, or tolerate those who do”
-# “I have not given or received any unauthorized aid on this assignment”
-#
-# Name: Shruti Ezhilarasan
-# Section: 570
-# Assignment: Lab 4- Roundoff Error
-# Date: 5/9/24
-
-
 ############ Part A ############
 
 a = 1/7
