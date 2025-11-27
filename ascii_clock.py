@@ -1,17 +1,4 @@
-# By submitting this assignment, I agree to the following:
-#   "Aggies do not lie, cheat, or steal, or tolerate those who do."
-#   "I have not given or received any unauthorized aid on this assignment."
-# Names:        Deepna Kanjee
-#               Clara Berg
-#               Saachi Jain
-#               Shruti Ezhilarasan
-# Section:      570
-# Assignment:   Lab 8 Team- ASCII Clock
-# Date:         17 October 2024
- 
-
-
-# Dictionary to represent each digit and letters (A, M, P) in 3x5 ASCII art
+# Use a dictionary to represent each digit in every configuration of 3x5
 digits = {
     '0': ['000', '0 0', '0 0', '0 0', '000'],
     '1': [' 1 ', '11 ', ' 1 ', ' 1 ', '111'],
