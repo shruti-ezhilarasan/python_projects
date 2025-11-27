@@ -1,28 +1,21 @@
-# By submitting this assignment, I agree to the following:
-# “Aggies do not lie, cheat, or steal, or tolerate those who do”
-# “I have not given or received any unauthorized aid on this assignment”
-#
-# Name: Shruti Ezhilarasan
-# Section: 570
-# Assignment: Lab 4- Calculate roots
-# Date: 12/9/24
-
 from math import *
 
-# user inputs
-
+# Take in 3 user inputs
 a = int(input("Please enter the coefficient A: "))
 b = int(input ("Please enter the coefficient B: "))
 c = int(input("Please enter the coefficient C: "))
 
-# quadratic formula
+# Compute the inner portion of the square root of the quadratic formula
 inner = (b**2)-(4*a*c)
 
+# Throw error message if both inputs are 0
 if (a == 0) and (b == 0):
     print ("You entered an invalid combination of coefficients!")
+# If a is 0, then print the root as -c/b
 elif (a == 0):
     x = -c/b
     print (f'The root is x = {x}')
+# Else, actually use the quadratic formula
 elif (inner < 0):
     outer = -b/ 2*a
     x1 = ( (-b)+(sqrt(-inner)))/(2*a)
