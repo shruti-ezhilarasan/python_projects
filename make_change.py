@@ -1,36 +1,22 @@
-# By submitting this assignment, I agree to the following:
-#   "Aggies do not lie, cheat, or steal, or tolerate those who do."
-#   "I have not given or received any unauthorized aid on this assignment."
-#
-# Names:        Deepna Kanjee
-#               Clara Berg
-#               Saachi Jain
-#               Shruti Ezhilarasan
-# Section:      570
-# Assignment:   Lab 3 Team- Unit Conversion
-# Date:         9/8/24
-
-
+# Gather user input
 paid = float(input("How much did you pay? "))
 cost = float(input("How much did it cost?"))
 change = paid-cost
 print(f'You received ${change:.2f} in change. That is...')
 
-
-
-
+# Convert the change into whole numbers
 change*=100
 change = round(change,2)
 change = int(change)
 
 
-#values
+# Set the values of the different coins of change
 quarter = 25
 dime = 10
 nickel = 5
 penny = 1
 
-
+# Calculate how much of each coin is necessary by division
 if((change//quarter) !=0):
    if((change//quarter) == 1):
        print(f'{change//quarter} quarter')
